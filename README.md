@@ -19,7 +19,7 @@ In short, Polipo uses a plethora of techniques to make web browsing (seem) faste
 
 ## Usage
 
-This docker image is available as a [trusted build on the docker index](https://index.docker.io/u/jalessio/polipo/),
+This docker image is available as a [trusted build on the docker hub](https://hub.docker.com/r/jalessio/docker-polipo/),
 so there's no setup required.
 Using this image for the first time will start a download.
 Further runs will be immediate, as the image will be cached locally.
