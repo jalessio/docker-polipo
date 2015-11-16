@@ -14,4 +14,4 @@ RUN echo 'disableIndexing=false'    >> /etc/polipo/config
 
 EXPOSE 8123
 ENTRYPOINT ["polipo"]
-CMD []
+# CMD []
