@@ -13,5 +13,4 @@ RUN echo 'disableServersList=false' >> /etc/polipo/config
 RUN echo 'disableIndexing=false'    >> /etc/polipo/config
 
 EXPOSE 8123
-ENTRYPOINT ["polipo"]
-# CMD []
+ENTRYPOINT ["polipo", "proxyAddress=0.0.0.0"]
